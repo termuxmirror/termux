@@ -41,6 +41,12 @@ You can show a list for all Pakages/Scripts if you run this command:
 
 If you want use this Scripts easy then run:
 
+```bash
+echo 'alias install="~/install.sh"' >> ~/.bashrc
+echo 'alias search="~/search.sh"' >> ~/.bashrc
+source ~/.bashrc
+```
+
 #### License
 
 License Agreement
