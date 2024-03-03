@@ -31,6 +31,16 @@ After this you can use apt-get for pkg
 
 If you want to install the installation program manually, download the [ZIP](https://termuxmirror.netlify.app/installer.zip) file and move it to the home directory of the terminal
 
+### Script List and Easy Use
+
+You can show a list for all Pakages/Scripts if you run this command:
+
+```bash
+./install.sh all
+```
+
+If you want use this Scripts easy then run:
+
 #### License
 
 License Agreement
