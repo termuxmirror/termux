@@ -18,3 +18,11 @@ chmod +x install.sh search.sh
 
 ## Termux
 
+For Termux use the same commands, you don't need to change to root, but please do the following before installing:
+
+```bash
+echo 'alias apt-get="pkg"' > ~/.bashrc
+source ~/.bashrc
+```
+
+After this you can use apt-get for pkg
