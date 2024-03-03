@@ -47,6 +47,39 @@ echo 'alias search="~/search.sh"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
+### Beta
+
+The Beta Version is an combined script, but this work maybe not good by all distribution:
+
+Install beta (By Ubuntu/Debian Run sudo -i first)
+
+```bash
+apt-get install zip
+curl -L https://termuxmirror.netlify.app/beta.zip -o beta.zip
+unzip beta.zip
+rm -r -f beta.zip
+chmod +x tmi.sh
+```
+
+Easy use
+
+```bash
+echo 'alias tmi="~/tmi.sh"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+How you install pakages/script
+
+```bash
+./tmi.sh install name
+```
+
+search
+
+```bash
+./tmi.sh search name
+```
+
 #### License
 
 License Agreement
