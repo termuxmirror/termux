@@ -2,7 +2,7 @@
 
 clear
 
-apt-get install busybox
+apt-get install busybox -y
 
 clear
 
