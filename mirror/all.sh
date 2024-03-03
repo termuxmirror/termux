@@ -13,3 +13,5 @@ echo "prompt"
 echo "busybox"
 
 echo "fdroid (Only for Termux)"
+
+echo "simulate (Install base before you use this)"
