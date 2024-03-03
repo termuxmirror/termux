@@ -11,3 +11,5 @@ echo "base"
 echo "prompt"
 
 echo "busybox"
+
+echo "fdroid (Only for Termux)"
