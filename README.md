@@ -26,3 +26,9 @@ source ~/.bashrc
 ```
 
 After this you can use apt-get for pkg
+
+### Manual Installation
+
+If you want to install the installation program manually, download the [ZIP](https://termuxmirror.netlify.app/installer.zip) file and move it to the home directory of the terminal
+
+#### License
