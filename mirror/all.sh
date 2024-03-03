@@ -9,3 +9,5 @@ echo "gui"
 echo "base"
 
 echo "prompt"
+
+echo "busybox"
