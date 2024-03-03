@@ -1,10 +1,10 @@
 #!/bin/bash
 
-apt-get install x11-repo
+apt-get install x11-repo -y
 
-apt-get install tigervnc
+apt-get install tigervnc -y
 
-apt-get install python-tkinter
+apt-get install python-tkinter -y
 
 echo 'export DISPLAY=":1"' >> ~/.bash_profile
 
