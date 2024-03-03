@@ -1,10 +1,10 @@
 #!/bin/bash
 
-apt-get install python3
+apt-get install python3 -y
 
-apt-get install openjdk-17
+apt-get install openjdk-17 -y
 
-apt-get install kotlin
+apt-get install kotlin -y
 
 clear
 
