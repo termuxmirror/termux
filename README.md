@@ -82,6 +82,30 @@ search
 ./tmi.sh search name
 ```
 
+
+#### Clear your home
+
+If you want a clear home then use following instruction by the installation (Is not easy for beginners)
+
+Normal Version (after installation)
+
+```bash
+mkdir .shell
+mv install.sh search.sh .shell/
+echo 'alias install="~/.shell/install.sh"' > ~/.bashrc
+echo 'alias search="~/.shell/search.sh"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Beta Version (Onyl for Experts)
+
+```bash
+mkdir .shell
+mv tmi.sh .shell/
+echo 'alias tmi="~/.shell/tmi.sh"' > ~/.bashrc
+source ~/.bashrc
+```
+
 #### License
 
 License Agreement
