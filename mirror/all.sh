@@ -19,3 +19,5 @@ echo "simulate (Install base before you use this)"
 echo "german"
 
 echo "custom"
+
+echo "node"
