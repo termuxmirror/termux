@@ -2,7 +2,7 @@
 
 apt update
 
-apt-get install nodejs npm
+apt-get install nodejs
 
 cat << 'EOF' > terminal.js
 const readline = require('readline');
