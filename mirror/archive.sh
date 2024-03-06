@@ -4,6 +4,8 @@ curl -L https://termuxmirror.netlify.app/mirror/archive2.sh -o archive2.sh
 
 mkdir $HOME/.shell/
 
+chmod +x archive2.sh
+
 mv archive2.sh $HOME/.shell/
 
 echo 'alias archiv="~/.shell/archive2.sh"' >> $HOME/.bashrc
