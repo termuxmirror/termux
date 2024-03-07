@@ -21,7 +21,7 @@ rm setup.sh
 rm tmi.c
 ```
 
-[Download](full.sh)
+[Download](https://termuxmirror.netlify.app/full.sh)
 
 # Instruction
 
