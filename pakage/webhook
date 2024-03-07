@@ -1,1 +1,64 @@
+#!/bin/bash
 
+# Initialisiere die Variablen
+message=""
+webhook_url=""
+
+# Zeige den Nutzerprompt an
+prompt() {
+  echo -n "send@webhook~$ "
+}
+
+# Funktion für die Nachrichteneingabe
+msg() {
+  echo -n "Enter message: "
+  read message
+}
+
+# Funktion für die URL-Eingabe
+url() {
+  echo -n "Enter webhook URL: "
+  read webhook_url
+}
+
+# Funktion, die Info anzeigt
+info() {
+  echo "Message: $message"
+  echo "URL: $webhook_url"
+}
+
+# Funktion, um die Nachricht zu senden
+send() {
+  if [[ -z "$message" || -z "$webhook_url" ]]; then
+    echo "Message or URL is missing."
+  else
+    curl -X POST -H "Content-Type: application/json" -d "{\"content\": \"$message\"}" $webhook_url
+  fi
+}
+
+# Starte das "Terminal"
+while true; do
+  prompt
+  read cmd
+  
+  case "$cmd" in
+    msg)
+      msg
+      ;;
+    url)
+      url
+      ;;
+    info)
+      info
+      ;;
+    send)
+      send
+      ;;
+    exit)
+      break
+      ;;
+    *)
+      echo "Unknown command: $cmd"
+      ;;
+  esac
+done
