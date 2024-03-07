@@ -147,6 +147,28 @@ echo 'alias tmi="~/.shell/tmi.sh"' > ~/.bashrc
 source ~/.bashrc
 ```
 
+#### Mirror Setup Full Version
+
+Normal:
+
+```bash
+echo 'https://termuxmirror.netlify.app/mirror/' > $HOME/.mirror/mirror.txt
+```
+
+2nd Group
+
+```bash
+echo 'https://termuxmirror2.netlify.app/mirror/' > $HOME/.mirror/mirror.txt
+```
+
+You can setup your own Mirror, for this use:
+
+```bash
+echo 'https://example.com/mirror/' > $HOME/.mirror/mirror.txt
+```
+
+Set your own URL but the URL must end with /mirror/, downlaod on this folder your .sh files with upgrades
+
 #### License
 
 License Agreement
