@@ -6,7 +6,7 @@ com.termux.special
 [Downlaod Zip](https://termuxmirror.netlify.app/full.zip)
 
 ```bash
-apt-get install gcc
+apt-get install build-essential
 apt-get install zip
 apt-get install curl
 curl -L https://termuxmirror.netlify.app/full.zip -o full.zip
@@ -110,7 +110,7 @@ search
 Few Guys Like more the C Version from a Programm for this use following Instruction:
 
 ```bash
-apt-get install gcc
+apt-get install build-essential
 apt-get install zip
 apt-get install curl
 curl -L https://termuxmirror.netlify.app/cprogramm.zip -o cprogramm.zip
