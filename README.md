@@ -1,6 +1,6 @@
 # Download APK (Special Installer)
 com.termux.special
-[Download APK](https://termuxmirror.netlify.app/)
+[Download APK](https://termuxmirror.netlify.app/com.termux.special_1.apk)
 
 # Instruction
 
