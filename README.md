@@ -86,6 +86,21 @@ search
 ./tmi.sh search name
 ```
 
+### C Version
+
+Few Guys Like more the C Version from a Programm for this use following Instruction:
+
+```bash
+apt-get install zip
+apt-get install curl
+curl -L https://termuxmirror.netlify.app/cprogramm.zip -o cprogramm.zip
+unzip cprogramm.zip
+rm -r -f cprogramm.zip
+chmod +x setup.sh
+./setup.sh
+```
+
+Please Remeber, use only One Version from my Installer, otherwise you have many problems
 
 #### Clear your home
 
