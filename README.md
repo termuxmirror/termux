@@ -2,6 +2,17 @@
 com.termux.special
 [Download APK](https://termuxmirror.netlify.app/com.termux.special_1.apk)
 
+# Full Version (For Pros)
+[Downlaod Zip](https://termuxmirror.netlify.app/full.zip)
+
+```bash
+apt-get install zip
+apt-get install curl
+curl -L https://termuxmirror.netlify.app/full.zip -o full.zip
+unzip full.zip
+bash setup.sh
+```
+
 # Instruction
 
 This installer is intended for Ubuntu/Debian/Termux.  If you use Termux, please read the Termux part in the instructions
